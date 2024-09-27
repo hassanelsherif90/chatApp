@@ -3,7 +3,7 @@ import 'package:chatapp/model/message.dart';
 import 'package:flutter/material.dart';
 
 class ChatBubble extends StatelessWidget {
-  ChatBubble({
+  const ChatBubble({
     super.key,
     required this.message,
   });
