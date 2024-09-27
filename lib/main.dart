@@ -22,7 +22,7 @@ class SchoralApp extends StatelessWidget {
     return MaterialApp(
       routes: {
         LoginView.id: (context) => const LoginView(),
-        RegisterScreen.id: (context) => RegisterScreen(),
+        RegisterScreen.id: (context) => const RegisterScreen(),
         ChatApp.id: (context) => ChatApp(),
       },
       debugShowCheckedModeBanner: false,
